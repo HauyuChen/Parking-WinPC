@@ -38,7 +38,7 @@ namespace 鹅城停车场
             pB = new PictureBox[42] { pictureBox32, pictureBox33, pictureBox34, pictureBox35, pictureBox36, pictureBox37, pictureBox38, pictureBox39, pictureBox40, pictureBox41, pictureBox42, pictureBox43, pictureBox44, pictureBox45, pictureBox46, pictureBox47, pictureBox48, pictureBox49, pictureBox50, pictureBox51, pictureBox52, pictureBox53, pictureBox54, pictureBox55, pictureBox56, pictureBox57, pictureBox58, pictureBox59, pictureBox60, pictureBox61, pictureBox62, pictureBox63, pictureBox64, pictureBox65, pictureBox66, pictureBox67, pictureBox68, pictureBox69, pictureBox70, pictureBox71, pictureBox72, pictureBox73 };
             try
             {
-                IPEndPoint point = new IPEndPoint(IPAddress.Parse("119.146.68.41"), 5000);
+                IPEndPoint point = new IPEndPoint(IPAddress.Parse("120.76.28.207"), 12306);
                 socketClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 socketClient.Connect(point);
                 Send();
@@ -237,6 +237,16 @@ namespace 鹅城停车场
                     btnOFF.Enabled = true;
                 }
             }
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textLightState_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
 

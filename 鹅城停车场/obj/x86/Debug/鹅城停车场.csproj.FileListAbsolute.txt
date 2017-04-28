@@ -16,3 +16,10 @@ C:\Users\goku\Desktop\鹅城停车场\鹅城停车场\obj\x86\Debug\鹅城停车
 C:\Users\goku\Desktop\鹅城停车场\鹅城停车场\obj\x86\Debug\鹅城停车场.Properties.Resources.resources
 C:\Users\goku\Desktop\鹅城停车场\鹅城停车场\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\goku\Desktop\鹅城停车场\鹅城停车场\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.exe
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.pdb
+E:\GithubResp\Parking-WinPC\鹅城停车场\bin\Debug\鹅城停车场.exe
+E:\GithubResp\Parking-WinPC\鹅城停车场\bin\Debug\鹅城停车场.pdb
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.Form1.resources
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.Properties.Resources.resources
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.csproj.GenerateResource.Cache
