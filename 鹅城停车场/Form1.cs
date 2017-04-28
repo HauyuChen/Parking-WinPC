@@ -59,12 +59,12 @@ namespace 鹅城停车场
         //连上服务器后先发送密码APPLIC和请求指令5226
         void Send()
         {
-            string sendM = "APPLIC";
-            byte[] buffer = Encoding.Default.GetBytes(sendM);
-            socketClient.Send(buffer);
-            string sendS = "5226";
-            byte[] buffer2 = Encoding.Default.GetBytes(sendS);
-            socketClient.Send(buffer2);
+            //string sendM = "APPLIC";
+            //byte[] buffer = Encoding.Default.GetBytes(sendM);
+            //socketClient.Send(buffer);
+            //string sendS = "5226";
+            //byte[] buffer2 = Encoding.Default.GetBytes(sendS);
+            //socketClient.Send(buffer2);
 
         }
 
@@ -151,7 +151,7 @@ namespace 鹅城停车场
         {
             try
             {
-                string str = "LIGHTON";
+                string str = "PCLIGHTON";
                 byte[] buffer = Encoding.Default.GetBytes(str);
                 socketClient.Send(buffer);
             }
@@ -166,7 +166,7 @@ namespace 鹅城停车场
             try
             {
 
-                string str = "LIGHTOFF";
+                string str = "PCLIGHTOFF";
                 byte[] buffer = Encoding.Default.GetBytes(str);
                 socketClient.Send(buffer);
 
@@ -224,14 +224,14 @@ namespace 鹅城停车场
                 byte[] buffer = new byte[1024];
                 if (comboBox1.Text == "自动模式")
                 {
-                    buffer = Encoding.Default.GetBytes("SELFCONTROL");//选自动模式发送SELFCONTROL
+                    buffer = Encoding.Default.GetBytes("PCSELFCONTROL");//选自动模式发送SELFCONTROL
                     socketClient.Send(buffer);
                     btnON.Enabled = false;
                     btnOFF.Enabled = false;
                 }
                 else if (comboBox1.Text == "手动模式")
                 {
-                    buffer = Encoding.Default.GetBytes("MANUAL");//选手动模式发送MANUAL
+                    buffer = Encoding.Default.GetBytes("PCMANUAL");//选手动模式发送MANUAL
                     socketClient.Send(buffer);
                     btnON.Enabled = true;
                     btnOFF.Enabled = true;
