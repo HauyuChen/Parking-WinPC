@@ -10,9 +10,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace 鹅城停车场
+namespace ParkingManagement
 {
-    public partial class Form1 : Form
+    public partial class PManagement : Form
     {
         Socket socketClient;
         delegate void ReceiveCallback(string str);
@@ -24,7 +24,7 @@ namespace 鹅城停车场
         PictureBox[] pA;
         PictureBox[] pB;
         int n;
-        public Form1()
+        public PManagement()
         {
             InitializeComponent();
 
@@ -59,9 +59,9 @@ namespace 鹅城停车场
         //连上服务器后先发送密码APPLIC和请求指令5226
         void Send()
         {
-            //string sendM = "APPLIC";
-            //byte[] buffer = Encoding.Default.GetBytes(sendM);
-            //socketClient.Send(buffer);
+            string sendM = "PCSELFCONTROL";
+            byte[] buffer = Encoding.Default.GetBytes(sendM);
+            socketClient.Send(buffer);
             //string sendS = "5226";
             //byte[] buffer2 = Encoding.Default.GetBytes(sendS);
             //socketClient.Send(buffer2);

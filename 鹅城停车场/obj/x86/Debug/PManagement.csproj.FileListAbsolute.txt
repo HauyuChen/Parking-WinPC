@@ -1,0 +1,7 @@
+E:\GithubResp\Parking-WinPC\鹅城停车场\bin\Debug\鹅城停车场.exe
+E:\GithubResp\Parking-WinPC\鹅城停车场\bin\Debug\鹅城停车场.pdb
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\PManagement.csproj.GenerateResource.Cache
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.exe
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\鹅城停车场.pdb
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\ParkingManagement.PManagement.resources
+E:\GithubResp\Parking-WinPC\鹅城停车场\obj\x86\Debug\ParkingManagement.Properties.Resources.resources
